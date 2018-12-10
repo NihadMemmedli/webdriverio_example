@@ -1,8 +1,0 @@
-[23:13:58]  COMMAND	POST 	 "/wd/hub/session"
-[23:13:58]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
-[23:13:58]  INFO	SET SESSION ID ef195f8d40c3d7d5ffd144d5486c36f0
-[23:13:58]  RESULT		{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)","userDataDir":"/tmp/.org.chromium.Chromium.osNDSQ"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:40093"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"70.0.3538.110","webStorageEnabled":true,"webdriver.remote.sessionid":"ef195f8d40c3d7d5ffd144d5486c36f0"}
-[23:13:59]  COMMAND	POST 	 "/wd/hub/session/ef195f8d40c3d7d5ffd144d5486c36f0/url"
-[23:13:59]  DATA		{"url":"http://the-internet.herokuapp.com/"}
-[23:14:03]  COMMAND	DELETE 	 "/wd/hub/session/ef195f8d40c3d7d5ffd144d5486c36f0"
-[23:14:03]  DATA		{}
