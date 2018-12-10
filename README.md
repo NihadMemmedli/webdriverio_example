@@ -1,11 +1,17 @@
-# WilliamHill technical test
+# WilliamHill Technical Test
 
-```sh
-$ cd ./examples/pageobject
+Download selenium-standalone or any selenium server :
+
+```sh'
+$ npm install selenium-standalone@latest -g
+$ selenium-standalone install && selenium-standalone start
 ```
 
-And run the demo:
+Download and run:
 
-```sh
+```sh'
+$ git clone https://github.com/NihadMemmedli/webdriverio_example.git
+$ cd webdriverio_example
+$ npm install
 $ npm test
 ```
