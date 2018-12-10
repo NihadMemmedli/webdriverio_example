@@ -1,0 +1,226 @@
+[19:53:47]  COMMAND	POST 	 "/wd/hub/session"
+[19:53:47]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","width":"2000","height":"2000","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[19:53:47]  INFO	SET SESSION ID 59f7606fc704a8806ae542fa8c445580
+[19:53:47]  RESULT		{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)","userDataDir":"/tmp/.org.chromium.Chromium.hGkMQP"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:41211"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"71.0.3578.80","webStorageEnabled":true,"webdriver.remote.sessionid":"59f7606fc704a8806ae542fa8c445580"}
+[19:53:47]  COMMAND	GET 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:47]  DATA		{}
+[19:53:47]  RESULT		{"height":721,"width":1050}
+[19:53:47]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:47]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:47]  RESULT		{"screenHeight":590,"screenWidth":1042}
+[19:53:47]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:47]  DATA		{"width":1374,"height":899}
+[19:53:47]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:47]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:47]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:47]  COMMAND	GET 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:47]  DATA		{}
+[19:53:47]  RESULT		{"height":741,"width":1366}
+[19:53:47]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:47]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:47]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:48]  DATA		{"width":1374,"height":899}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:48]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:48]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	GET 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:48]  DATA		{}
+[19:53:48]  RESULT		{"height":741,"width":1366}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:48]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:48]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:48]  DATA		{"width":1374,"height":899}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:48]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:48]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	GET 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:48]  DATA		{}
+[19:53:48]  RESULT		{"height":741,"width":1366}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:48]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:48]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:48]  DATA		{"width":1374,"height":899}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:48]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:48]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	GET 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:48]  DATA		{}
+[19:53:48]  RESULT		{"height":741,"width":1366}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:48]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:48]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:48]  DATA		{"width":1374,"height":899}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:48]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:48]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	GET 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:48]  DATA		{}
+[19:53:48]  RESULT		{"height":741,"width":1366}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:48]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:48]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:53:48]  DATA		{"width":1374,"height":899}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:53:48]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:53:48]  RESULT		{"screenHeight":610,"screenWidth":1358}
+[19:53:48]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/url"
+[19:53:48]  DATA		{"url":"https://vegas.williamhill.com/"}
+[19:53:51]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/element"
+[19:53:51]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:51]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:51]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:51]  RESULT		[]
+[19:53:52]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:52]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:52]  RESULT		[]
+[19:53:52]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:52]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:52]  RESULT		[]
+[19:53:53]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:53]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:53]  RESULT		[]
+[19:53:53]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:53]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:53]  RESULT		[]
+[19:53:54]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:54]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:54]  RESULT		[]
+[19:53:54]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:54]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:54]  RESULT		[]
+[19:53:55]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:55]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:55]  RESULT		[]
+[19:53:55]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:55]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:55]  RESULT		[]
+[19:53:56]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:56]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:56]  RESULT		[]
+[19:53:56]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:56]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:56]  RESULT		[]
+[19:53:57]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:57]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:57]  RESULT		[]
+[19:53:57]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:57]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:57]  RESULT		[]
+[19:53:58]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:58]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:58]  RESULT		[]
+[19:53:58]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:58]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:58]  RESULT		[]
+[19:53:59]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:59]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:59]  RESULT		[]
+[19:53:59]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:53:59]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:53:59]  RESULT		[]
+[19:54:00]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:00]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:00]  RESULT		[]
+[19:54:00]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:00]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:00]  RESULT		[]
+[19:54:01]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:01]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:01]  RESULT		[]
+[19:54:01]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:01]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:01]  RESULT		[]
+[19:54:02]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:02]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:02]  RESULT		[]
+[19:54:02]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:02]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:02]  RESULT		[]
+[19:54:03]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:03]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:03]  RESULT		[]
+[19:54:03]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:03]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:03]  RESULT		[]
+[19:54:04]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:04]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:04]  RESULT		[]
+[19:54:04]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:04]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:04]  RESULT		[]
+[19:54:05]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:05]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:05]  RESULT		[]
+[19:54:05]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:05]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:05]  RESULT		[]
+[19:54:06]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:06]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:06]  RESULT		[]
+[19:54:06]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:06]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:06]  RESULT		[]
+[19:54:07]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:07]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:07]  RESULT		[]
+[19:54:07]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:07]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:07]  RESULT		[]
+[19:54:08]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:08]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:08]  RESULT		[]
+[19:54:08]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:08]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:08]  RESULT		[]
+[19:54:09]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:09]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:09]  RESULT		[]
+[19:54:09]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:09]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:09]  RESULT		[]
+[19:54:10]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:10]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:10]  RESULT		[]
+[19:54:10]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:10]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:10]  RESULT		[]
+[19:54:11]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:11]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:11]  RESULT		[]
+[19:54:11]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:11]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:12]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:12]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:12]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:12]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:13]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:13]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:13]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:13]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:14]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:14]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:14]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:14]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:15]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:15]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:15]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:15]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:16]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:16]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:16]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:16]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:17]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:17]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:17]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/elements"
+[19:54:17]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[19:54:17]  COMMAND	GET 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/window/current/size"
+[19:54:17]  DATA		{}
+[19:54:17]  COMMAND	POST 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580/execute"
+[19:54:17]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[19:54:17]  COMMAND	DELETE 	 "/wd/hub/session/59f7606fc704a8806ae542fa8c445580"
+[19:54:17]  DATA		{}

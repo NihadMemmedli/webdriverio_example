@@ -1,0 +1,23 @@
+[23:32:13]  COMMAND	POST 	 "/wd/hub/session"
+[23:32:13]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[23:32:13]  INFO	SET SESSION ID 26151fe2515b893da828fc259a22af5c
+[23:32:13]  RESULT		{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)","userDataDir":"/tmp/.org.chromium.Chromium.rOOT91"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:35313"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"70.0.3538.110","webStorageEnabled":true,"webdriver.remote.sessionid":"26151fe2515b893da828fc259a22af5c"}
+[23:32:13]  COMMAND	POST 	 "/wd/hub/session/26151fe2515b893da828fc259a22af5c/url"
+[23:32:13]  DATA		{"url":"https://vegas.williamhill.com/"}
+[23:32:18]  COMMAND	POST 	 "/wd/hub/session/26151fe2515b893da828fc259a22af5c/element"
+[23:32:18]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[23:32:18]  RESULT		{"ELEMENT":"0.952413140675455-1"}
+[23:32:18]  COMMAND	POST 	 "/wd/hub/session/26151fe2515b893da828fc259a22af5c/element/0.952413140675455-1/click"
+[23:32:18]  DATA		{}
+[23:32:18]  COMMAND	POST 	 "/wd/hub/session/26151fe2515b893da828fc259a22af5c/element"
+[23:32:18]  DATA		{"using":"xpath","value":"//input[@data-test='game-search-field']"}
+[23:32:18]  RESULT		{"ELEMENT":"0.952413140675455-2"}
+[23:32:18]  COMMAND	POST 	 "/wd/hub/session/26151fe2515b893da828fc259a22af5c/element/0.952413140675455-2/value"
+[23:32:18]  DATA		{"value":["M","a","y","f","a","i","r"," ","R","o","(6 more items)"],"text":"Mayfair Roulette"}
+[23:32:19]  COMMAND	POST 	 "/wd/hub/session/26151fe2515b893da828fc259a22af5c/element"
+[23:32:19]  DATA		{"using":"xpath","value":"//img[@alt='Mayfair Roulette']"}
+[23:32:19]  RESULT		{"ELEMENT":"0.952413140675455-3"}
+[23:32:19]  COMMAND	POST 	 "/wd/hub/session/26151fe2515b893da828fc259a22af5c/moveto"
+[23:32:19]  DATA		{"element":"0.952413140675455-3"}
+[23:32:22]  COMMAND	DELETE 	 "/wd/hub/session/26151fe2515b893da828fc259a22af5c"
+[23:32:22]  DATA		{}

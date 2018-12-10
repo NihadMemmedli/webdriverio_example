@@ -1,0 +1,147 @@
+[20:02:44]  COMMAND	POST 	 "/wd/hub/session"
+[20:02:44]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","width":"2000","height":"2000","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[20:02:45]  INFO	SET SESSION ID b483668d6574ca5cdafc991653ece67c
+[20:02:45]  RESULT		{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)","userDataDir":"/tmp/.org.chromium.Chromium.whtjKl"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:45011"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"71.0.3578.80","webStorageEnabled":true,"webdriver.remote.sessionid":"b483668d6574ca5cdafc991653ece67c"}
+[20:02:45]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:45]  DATA		{}
+[20:02:45]  RESULT		{"height":721,"width":1050}
+[20:02:45]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:45]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:45]  RESULT		{"screenHeight":590,"screenWidth":1042}
+[20:02:45]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:45]  DATA		{"width":328,"height":851}
+[20:02:45]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:45]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:45]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:45]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:45]  DATA		{}
+[20:02:45]  RESULT		{"height":741,"width":609}
+[20:02:45]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:45]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:45]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:45]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:45]  DATA		{"width":328,"height":851}
+[20:02:45]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:45]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:45]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:45]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:45]  DATA		{}
+[20:02:45]  RESULT		{"height":741,"width":609}
+[20:02:45]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:45]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:45]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:45]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:45]  DATA		{"width":328,"height":851}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:46]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:46]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:46]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:46]  DATA		{}
+[20:02:46]  RESULT		{"height":741,"width":609}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:46]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:46]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:46]  DATA		{"width":328,"height":851}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:46]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:46]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:46]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:46]  DATA		{}
+[20:02:46]  RESULT		{"height":741,"width":609}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:46]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:46]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:46]  DATA		{"width":328,"height":851}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:46]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:46]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:46]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:46]  DATA		{}
+[20:02:46]  RESULT		{"height":741,"width":609}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:46]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:46]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/window/current/size"
+[20:02:46]  DATA		{"width":328,"height":851}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:46]  DATA		{"script":"return (function getViewportSize() {\n    return {\n        screenWidth: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),\n        screenHeight: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)\n    };\n}).apply(null, arguments)","args":[]}
+[20:02:46]  RESULT		{"screenHeight":610,"screenWidth":601}
+[20:02:46]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/url"
+[20:02:46]  DATA		{"url":"https://vegas.williamhill.com/"}
+[20:02:51]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:51]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[20:02:51]  RESULT		{"ELEMENT":"0.29476867796157613-1"}
+[20:02:51]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/elements"
+[20:02:51]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[20:02:51]  RESULT		[{"ELEMENT":"0.29476867796157613-1"}]
+[20:02:51]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element/0.29476867796157613-1/displayed"
+[20:02:51]  DATA		{}
+[20:02:51]  RESULT		true
+[20:02:51]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:51]  DATA		{"using":"xpath","value":"//button[normalize-space() = \"Accept & Close\"]"}
+[20:02:51]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/elements"
+[20:02:51]  DATA		{"using":"xpath","value":"//button[normalize-space() = \"Accept & Close\"]"}
+[20:02:51]  RESULT		[]
+[20:02:51]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/elements"
+[20:02:51]  DATA		{"using":"xpath","value":"//button[normalize-space() = \"Accept & Close\"]"}
+[20:02:51]  RESULT		[]
+[20:02:52]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/elements"
+[20:02:52]  DATA		{"using":"xpath","value":"//button[normalize-space() = \"Accept & Close\"]"}
+[20:02:52]  RESULT		[{"ELEMENT":"0.29476867796157613-2"}]
+[20:02:52]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element/0.29476867796157613-2/displayed"
+[20:02:52]  DATA		{}
+[20:02:52]  RESULT		true
+[20:02:52]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:52]  DATA		{"using":"xpath","value":"//button[normalize-space() = \"Accept & Close\"]"}
+[20:02:52]  RESULT		{"ELEMENT":"0.29476867796157613-2"}
+[20:02:52]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element/0.29476867796157613-2/click"
+[20:02:52]  DATA		{}
+[20:02:52]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:52]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[20:02:52]  RESULT		{"ELEMENT":"0.29476867796157613-1"}
+[20:02:52]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element/0.29476867796157613-1/click"
+[20:02:52]  DATA		{}
+[20:02:52]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:52]  DATA		{"using":"xpath","value":"//input[@data-test='game-search-field']"}
+[20:02:52]  RESULT		{"ELEMENT":"0.29476867796157613-3"}
+[20:02:52]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element/0.29476867796157613-3/value"
+[20:02:52]  DATA		{"value":["M","a","y","f","a","i","r"," ","R","o","(6 more items)"],"text":"Mayfair Roulette"}
+[20:02:52]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:52]  DATA		{"using":"xpath","value":"//img[@alt='Mayfair Roulette']"}
+[20:02:52]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/elements"
+[20:02:52]  DATA		{"using":"xpath","value":"//img[@alt='Mayfair Roulette']"}
+[20:02:52]  RESULT		[]
+[20:02:53]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/elements"
+[20:02:53]  DATA		{"using":"xpath","value":"//img[@alt='Mayfair Roulette']"}
+[20:02:53]  RESULT		[{"ELEMENT":"0.29476867796157613-4"}]
+[20:02:53]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element/0.29476867796157613-4/displayed"
+[20:02:53]  DATA		{}
+[20:02:53]  RESULT		true
+[20:02:53]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:53]  DATA		{"using":"xpath","value":"//img[@alt='Mayfair Roulette']"}
+[20:02:53]  RESULT		{"ELEMENT":"0.29476867796157613-4"}
+[20:02:53]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element/0.29476867796157613-4/click"
+[20:02:53]  DATA		{}
+[20:02:53]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:53]  DATA		{"using":"xpath","value":"//button[@data-test='tile-details-button-play']"}
+[20:02:53]  RESULT		{"ELEMENT":"0.29476867796157613-5"}
+[20:02:53]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/elements"
+[20:02:53]  DATA		{"using":"xpath","value":"//button[@data-test='tile-details-button-play']"}
+[20:02:53]  RESULT		[{"ELEMENT":"0.29476867796157613-5"}]
+[20:02:53]  COMMAND	GET 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element/0.29476867796157613-5/displayed"
+[20:02:53]  DATA		{}
+[20:02:53]  RESULT		true
+[20:02:53]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:53]  DATA		{"using":"xpath","value":"//button[@data-test='tile-details-button-play']"}
+[20:02:53]  RESULT		{"ELEMENT":"0.29476867796157613-5"}
+[20:02:53]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/execute"
+[20:02:53]  DATA		{"script":"return (function scroll(x, y) {\n    return window.scrollTo(x, y);\n}).apply(null, arguments)","args":[0,200]}
+[20:02:53]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element"
+[20:02:53]  DATA		{"using":"xpath","value":"//button[@data-test='tile-details-button-play']"}
+[20:02:53]  RESULT		{"ELEMENT":"0.29476867796157613-5"}
+[20:02:53]  COMMAND	POST 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c/element/0.29476867796157613-5/click"
+[20:02:53]  DATA		{}
+[20:02:53]  COMMAND	DELETE 	 "/wd/hub/session/b483668d6574ca5cdafc991653ece67c"
+[20:02:53]  DATA		{}

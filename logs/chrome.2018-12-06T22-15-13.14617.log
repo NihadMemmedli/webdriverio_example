@@ -1,0 +1,13 @@
+[23:15:13]  COMMAND	POST 	 "/wd/hub/session"
+[23:15:13]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[23:15:14]  INFO	SET SESSION ID a86539e000e6e8851695322d19644152
+[23:15:14]  RESULT		{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)","userDataDir":"/tmp/.org.chromium.Chromium.pPUKuQ"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:35427"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"70.0.3538.110","webStorageEnabled":true,"webdriver.remote.sessionid":"a86539e000e6e8851695322d19644152"}
+[23:15:14]  COMMAND	POST 	 "/wd/hub/session/a86539e000e6e8851695322d19644152/url"
+[23:15:14]  DATA		{"url":"https://vegas.williamhill.com/"}
+[23:15:19]  COMMAND	POST 	 "/wd/hub/session/a86539e000e6e8851695322d19644152/element"
+[23:15:19]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[23:15:19]  RESULT		{"ELEMENT":"0.26594350500740704-1"}
+[23:15:19]  COMMAND	POST 	 "/wd/hub/session/a86539e000e6e8851695322d19644152/element/0.26594350500740704-1/click"
+[23:15:19]  DATA		{}
+[23:15:22]  COMMAND	DELETE 	 "/wd/hub/session/a86539e000e6e8851695322d19644152"
+[23:15:22]  DATA		{}

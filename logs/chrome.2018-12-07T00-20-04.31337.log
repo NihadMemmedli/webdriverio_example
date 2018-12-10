@@ -1,0 +1,23 @@
+[01:20:04]  COMMAND	POST 	 "/wd/hub/session"
+[01:20:04]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[01:20:05]  INFO	SET SESSION ID 748add390affa54e82f32f83b86c8892
+[01:20:05]  RESULT		{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)","userDataDir":"/tmp/.org.chromium.Chromium.K9oHit"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:46239"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"70.0.3538.110","webStorageEnabled":true,"webdriver.remote.sessionid":"748add390affa54e82f32f83b86c8892"}
+[01:20:05]  COMMAND	POST 	 "/wd/hub/session/748add390affa54e82f32f83b86c8892/window/fullscreen"
+[01:20:05]  DATA		{}
+[01:20:05]  RESULT		{"height":1080,"width":1920,"x":1366,"y":0}
+[01:20:05]  COMMAND	POST 	 "/wd/hub/session/748add390affa54e82f32f83b86c8892/url"
+[01:20:05]  DATA		{"url":"https://vegas.williamhill.com/"}
+[01:20:14]  COMMAND	POST 	 "/wd/hub/session/748add390affa54e82f32f83b86c8892/element"
+[01:20:14]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[01:20:14]  RESULT		{"ELEMENT":"0.309945958925276-1"}
+[01:20:14]  COMMAND	POST 	 "/wd/hub/session/748add390affa54e82f32f83b86c8892/element/0.309945958925276-1/click"
+[01:20:14]  DATA		{}
+[01:20:14]  COMMAND	POST 	 "/wd/hub/session/748add390affa54e82f32f83b86c8892/element"
+[01:20:14]  DATA		{"using":"xpath","value":"//input[@data-test='game-search-field']"}
+[01:20:14]  RESULT		{"ELEMENT":"0.309945958925276-2"}
+[01:20:14]  COMMAND	POST 	 "/wd/hub/session/748add390affa54e82f32f83b86c8892/element/0.309945958925276-2/value"
+[01:20:14]  DATA		{"value":["M","a","y","f","a","i","r"," ","R","o","(6 more items)"],"text":"Mayfair Roulette"}
+[01:20:14]  COMMAND	POST 	 "/wd/hub/session/748add390affa54e82f32f83b86c8892/element"
+[01:20:14]  DATA		{"using":"xpath","value":"//h4[normalize-space() = \"Mayfair Roulette\"]"}
+[01:20:14]  COMMAND	DELETE 	 "/wd/hub/session/748add390affa54e82f32f83b86c8892"
+[01:20:14]  DATA		{}

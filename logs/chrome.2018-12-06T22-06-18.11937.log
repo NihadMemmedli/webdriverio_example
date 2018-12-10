@@ -1,0 +1,61 @@
+[23:06:18]  COMMAND	POST 	 "/wd/hub/session"
+[23:06:18]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[23:06:19]  INFO	SET SESSION ID 93cc6efc7f4011806b45edbd26b9de8c
+[23:06:19]  RESULT		{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)","userDataDir":"/tmp/.org.chromium.Chromium.Lieknn"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:38145"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"70.0.3538.110","webStorageEnabled":true,"webdriver.remote.sessionid":"93cc6efc7f4011806b45edbd26b9de8c"}
+[23:06:20]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/url"
+[23:06:20]  DATA		{"url":"http://the-internet.herokuapp.com/login"}
+[23:06:21]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element"
+[23:06:21]  DATA		{"using":"id","value":"username"}
+[23:06:21]  RESULT		{"ELEMENT":"0.7071463793240751-1"}
+[23:06:21]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element/0.7071463793240751-1/value"
+[23:06:21]  DATA		{"value":["f","o","o"],"text":"foo"}
+[23:06:21]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element"
+[23:06:21]  DATA		{"using":"id","value":"password"}
+[23:06:21]  RESULT		{"ELEMENT":"0.7071463793240751-2"}
+[23:06:21]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element/0.7071463793240751-2/value"
+[23:06:21]  DATA		{"value":["b","a","r"],"text":"bar"}
+[23:06:21]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element"
+[23:06:21]  DATA		{"using":"css selector","value":"#login button[type=submit]"}
+[23:06:21]  RESULT		{"ELEMENT":"0.7071463793240751-3"}
+[23:06:21]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element/0.7071463793240751-3/click"
+[23:06:21]  DATA		{}
+[23:06:22]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element"
+[23:06:22]  DATA		{"using":"id","value":"flash"}
+[23:06:22]  RESULT		{"ELEMENT":"0.47049859745864864-1"}
+[23:06:22]  COMMAND	GET 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element/0.47049859745864864-1/text"
+[23:06:22]  DATA		{}
+[23:06:22]  RESULT		"Your username is invalid!\n×"
+[23:06:22]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/url"
+[23:06:22]  DATA		{"url":"http://the-internet.herokuapp.com/login"}
+[23:06:22]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element"
+[23:06:22]  DATA		{"using":"id","value":"username"}
+[23:06:22]  RESULT		{"ELEMENT":"0.7578591436217721-1"}
+[23:06:22]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element/0.7578591436217721-1/value"
+[23:06:22]  DATA		{"value":["t","o","m","s","m","i","t","h"],"text":"tomsmith"}
+[23:06:22]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element"
+[23:06:22]  DATA		{"using":"id","value":"password"}
+[23:06:22]  RESULT		{"ELEMENT":"0.7578591436217721-2"}
+[23:06:22]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element/0.7578591436217721-2/value"
+[23:06:22]  DATA		{"value":["S","u","p","e","r","S","e","c","r","e","(10 more items)"],"text":"SuperSecretPassword!"}
+[23:06:22]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element"
+[23:06:22]  DATA		{"using":"css selector","value":"#login button[type=submit]"}
+[23:06:22]  RESULT		{"ELEMENT":"0.7578591436217721-3"}
+[23:06:22]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element/0.7578591436217721-3/click"
+[23:06:22]  DATA		{}
+[23:06:23]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element"
+[23:06:23]  DATA		{"using":"id","value":"flash"}
+[23:06:23]  RESULT		{"ELEMENT":"0.34216832578281586-1"}
+[23:06:23]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/elements"
+[23:06:23]  DATA		{"using":"id","value":"flash"}
+[23:06:23]  RESULT		[{"ELEMENT":"0.34216832578281586-1"}]
+[23:06:23]  COMMAND	GET 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element/0.34216832578281586-1/displayed"
+[23:06:23]  DATA		{}
+[23:06:23]  RESULT		true
+[23:06:23]  COMMAND	POST 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element"
+[23:06:23]  DATA		{"using":"id","value":"flash"}
+[23:06:23]  RESULT		{"ELEMENT":"0.34216832578281586-1"}
+[23:06:23]  COMMAND	GET 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c/element/0.34216832578281586-1/text"
+[23:06:23]  DATA		{}
+[23:06:23]  RESULT		"You logged into a secure area!\n×"
+[23:06:23]  COMMAND	DELETE 	 "/wd/hub/session/93cc6efc7f4011806b45edbd26b9de8c"
+[23:06:23]  DATA		{}

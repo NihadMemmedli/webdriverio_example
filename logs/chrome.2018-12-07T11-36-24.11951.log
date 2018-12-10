@@ -1,0 +1,58 @@
+[12:36:24]  COMMAND	POST 	 "/wd/hub/session"
+[12:36:24]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[12:36:25]  INFO	SET SESSION ID 7927c7642f2120d606435200ca5c17c7
+[12:36:25]  RESULT		{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)","userDataDir":"/tmp/.org.chromium.Chromium.dVRgpJ"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:43205"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"71.0.3578.80","webStorageEnabled":true,"webdriver.remote.sessionid":"7927c7642f2120d606435200ca5c17c7"}
+[12:36:25]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/window/fullscreen"
+[12:36:25]  DATA		{}
+[12:36:25]  RESULT		{"height":1080,"width":1920,"x":1366,"y":0}
+[12:36:25]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/url"
+[12:36:25]  DATA		{"url":"https://vegas.williamhill.com/"}
+[12:36:33]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element"
+[12:36:33]  DATA		{"using":"xpath","value":"//button[contains(@data-test,'game-search-button')]"}
+[12:36:33]  RESULT		{"ELEMENT":"0.8137793840387821-1"}
+[12:36:33]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element/0.8137793840387821-1/click"
+[12:36:33]  DATA		{}
+[12:36:33]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element"
+[12:36:33]  DATA		{"using":"xpath","value":"//input[@data-test='game-search-field']"}
+[12:36:33]  RESULT		{"ELEMENT":"0.8137793840387821-2"}
+[12:36:33]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element/0.8137793840387821-2/value"
+[12:36:33]  DATA		{"value":["M","a","y","f","a","i","r"," ","R","o","(6 more items)"],"text":"Mayfair Roulette"}
+[12:36:34]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/elements"
+[12:36:34]  DATA		{"using":"xpath","value":"//img[contains(@src,'214x214-MayfairRoulette-SquareTiles.jpg')]"}
+[12:36:34]  RESULT		[{"ELEMENT":"0.8137793840387821-3"}]
+[12:36:34]  COMMAND	GET 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element/0.8137793840387821-3/displayed"
+[12:36:34]  DATA		{}
+[12:36:34]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/elements"
+[12:36:34]  DATA		{"using":"xpath","value":"//img[contains(@src,'214x214-MayfairRoulette-SquareTiles.jpg')]"}
+[12:36:34]  RESULT		[{"ELEMENT":"0.8137793840387821-4"}]
+[12:36:34]  COMMAND	GET 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element/0.8137793840387821-4/displayed"
+[12:36:34]  DATA		{}
+[12:36:34]  RESULT		true
+[12:36:34]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element"
+[12:36:34]  DATA		{"using":"xpath","value":"//img[contains(@src,'214x214-MayfairRoulette-SquareTiles.jpg')]"}
+[12:36:34]  RESULT		{"ELEMENT":"0.8137793840387821-4"}
+[12:36:34]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/moveto"
+[12:36:34]  DATA		{"element":"0.8137793840387821-4","xoffset":500}
+[12:36:34]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/elements"
+[12:36:34]  DATA		{"using":"xpath","value":"//i[@class='fa fa-angle-down']"}
+[12:36:34]  RESULT		[]
+[12:36:35]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/elements"
+[12:36:35]  DATA		{"using":"xpath","value":"//i[@class='fa fa-angle-down']"}
+[12:36:35]  RESULT		[{"ELEMENT":"0.8137793840387821-5"}]
+[12:36:35]  COMMAND	GET 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element/0.8137793840387821-5/displayed"
+[12:36:35]  DATA		{}
+[12:36:35]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/elements"
+[12:36:35]  DATA		{"using":"xpath","value":"//i[@class='fa fa-angle-down']"}
+[12:36:35]  RESULT		[{"ELEMENT":"0.8137793840387821-5"}]
+[12:36:35]  COMMAND	GET 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element/0.8137793840387821-5/displayed"
+[12:36:35]  DATA		{}
+[12:36:35]  RESULT		true
+[12:36:35]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element"
+[12:36:35]  DATA		{"using":"xpath","value":"//i[@class='fa fa-angle-down']"}
+[12:36:35]  RESULT		{"ELEMENT":"0.8137793840387821-5"}
+[12:36:35]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element/0.8137793840387821-5/click"
+[12:36:35]  DATA		{}
+[12:36:36]  COMMAND	POST 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7/element"
+[12:36:36]  DATA		{"using":"xpath","value":"(//button[@data-test='tile-details-button-play']"}
+[12:36:36]  COMMAND	DELETE 	 "/wd/hub/session/7927c7642f2120d606435200ca5c17c7"
+[12:36:36]  DATA		{}

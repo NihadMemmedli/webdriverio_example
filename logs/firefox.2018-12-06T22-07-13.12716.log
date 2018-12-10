@@ -1,0 +1,56 @@
+[23:07:13]  COMMAND	POST 	 "/wd/hub/session"
+[23:07:13]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"firefox","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[23:07:18]  INFO	SET SESSION ID 33032864-dc31-4080-8af7-c79b319a8b33
+[23:07:18]  RESULT		{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"63.0.3","moz:accessibilityChecks":false,"moz:geckodriverVersion":"0.23.0","moz:headless":false,"moz:processID":12805,"moz:profile":"/tmp/rust_mozprofile.GbxIspkzfmIG","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"linux","platformVersion":"4.15.0-39-generic","rotatable":false,"setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webdriver.remote.sessionid":"33032864-dc31-4080-8af7-c79b319a8b33"}
+[23:07:18]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/url"
+[23:07:18]  DATA		{"url":"http://the-internet.herokuapp.com/dynamic_loading/2"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/element"
+[23:07:20]  DATA		{"using":"id","value":"finish"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:20]  DATA		{"using":"id","value":"finish"}
+[23:07:20]  RESULT		[]
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/element"
+[23:07:20]  DATA		{"using":"xpath","value":"//button[normalize-space() = \"Start\"]"}
+[23:07:20]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"150d6b5e-40f8-4654-b504-766a4eeca701"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/element/150d6b5e-40f8-4654-b504-766a4eeca701/click"
+[23:07:20]  DATA		{}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/element"
+[23:07:20]  DATA		{"using":"id","value":"finish"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:20]  DATA		{"using":"id","value":"finish"}
+[23:07:20]  RESULT		[]
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:21]  DATA		{"using":"id","value":"finish"}
+[23:07:21]  RESULT		[]
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:21]  DATA		{"using":"id","value":"finish"}
+[23:07:21]  RESULT		[]
+[23:07:22]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:22]  DATA		{"using":"id","value":"finish"}
+[23:07:22]  RESULT		[]
+[23:07:22]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:22]  DATA		{"using":"id","value":"finish"}
+[23:07:22]  RESULT		[]
+[23:07:23]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:23]  DATA		{"using":"id","value":"finish"}
+[23:07:23]  RESULT		[]
+[23:07:23]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:23]  DATA		{"using":"id","value":"finish"}
+[23:07:23]  RESULT		[]
+[23:07:24]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:24]  DATA		{"using":"id","value":"finish"}
+[23:07:24]  RESULT		[]
+[23:07:24]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:24]  DATA		{"using":"id","value":"finish"}
+[23:07:24]  RESULT		[]
+[23:07:25]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:25]  DATA		{"using":"id","value":"finish"}
+[23:07:25]  RESULT		[]
+[23:07:25]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/elements"
+[23:07:25]  DATA		{"using":"id","value":"finish"}
+[23:07:25]  RESULT		[{"element-6066-11e4-a52e-4f735466cecf":"3529a97a-d2bb-42e9-ab39-105ba920aea1"}]
+[23:07:25]  COMMAND	POST 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33/element"
+[23:07:25]  DATA		{"using":"id","value":"finish"}
+[23:07:25]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"3529a97a-d2bb-42e9-ab39-105ba920aea1"}
+[23:07:26]  COMMAND	DELETE 	 "/wd/hub/session/33032864-dc31-4080-8af7-c79b319a8b33"
+[23:07:26]  DATA		{}

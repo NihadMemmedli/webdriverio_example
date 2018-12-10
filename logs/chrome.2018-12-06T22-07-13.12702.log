@@ -1,0 +1,37 @@
+[23:07:13]  COMMAND	POST 	 "/wd/hub/session"
+[23:07:13]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"chrome","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[23:07:14]  INFO	SET SESSION ID 5c6f1b273be774e0164fd5eb9ee6175a
+[23:07:14]  RESULT		{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d)","userDataDir":"/tmp/.org.chromium.Chromium.74UEHq"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:34493"},"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Linux","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"70.0.3538.110","webStorageEnabled":true,"webdriver.remote.sessionid":"5c6f1b273be774e0164fd5eb9ee6175a"}
+[23:07:14]  COMMAND	POST 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/url"
+[23:07:14]  DATA		{"url":"http://the-internet.herokuapp.com/checkboxes"}
+[23:07:16]  COMMAND	POST 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element"
+[23:07:16]  DATA		{"using":"css selector","value":"#checkboxes input:first-Child"}
+[23:07:16]  RESULT		{"ELEMENT":"0.1188326546759344-1"}
+[23:07:16]  COMMAND	GET 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element/0.1188326546759344-1/selected"
+[23:07:16]  DATA		{}
+[23:07:16]  COMMAND	POST 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element"
+[23:07:16]  DATA		{"using":"css selector","value":"#checkboxes input:last-Child"}
+[23:07:16]  RESULT		{"ELEMENT":"0.1188326546759344-2"}
+[23:07:16]  COMMAND	GET 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element/0.1188326546759344-2/selected"
+[23:07:16]  DATA		{}
+[23:07:17]  RESULT		true
+[23:07:17]  COMMAND	POST 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/url"
+[23:07:17]  DATA		{"url":"http://the-internet.herokuapp.com/checkboxes"}
+[23:07:17]  COMMAND	POST 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element"
+[23:07:17]  DATA		{"using":"css selector","value":"#checkboxes input:first-Child"}
+[23:07:17]  RESULT		{"ELEMENT":"0.7903709787982232-1"}
+[23:07:17]  COMMAND	GET 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element/0.7903709787982232-1/selected"
+[23:07:17]  DATA		{}
+[23:07:17]  COMMAND	POST 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element"
+[23:07:17]  DATA		{"using":"css selector","value":"#checkboxes input:first-Child"}
+[23:07:17]  RESULT		{"ELEMENT":"0.7903709787982232-1"}
+[23:07:17]  COMMAND	POST 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element/0.7903709787982232-1/click"
+[23:07:17]  DATA		{}
+[23:07:17]  COMMAND	POST 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element"
+[23:07:17]  DATA		{"using":"css selector","value":"#checkboxes input:first-Child"}
+[23:07:17]  RESULT		{"ELEMENT":"0.7903709787982232-1"}
+[23:07:17]  COMMAND	GET 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a/element/0.7903709787982232-1/selected"
+[23:07:17]  DATA		{}
+[23:07:17]  RESULT		true
+[23:07:17]  COMMAND	DELETE 	 "/wd/hub/session/5c6f1b273be774e0164fd5eb9ee6175a"
+[23:07:17]  DATA		{}

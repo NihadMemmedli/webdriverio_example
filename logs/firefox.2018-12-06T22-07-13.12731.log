@@ -1,0 +1,61 @@
+[23:07:13]  COMMAND	POST 	 "/wd/hub/session"
+[23:07:13]  DATA		{"desiredCapabilities":{"javascriptEnabled":true,"locationContextEnabled":true,"handlesAlerts":true,"rotatable":true,"browserName":"firefox","loggingPrefs":{"browser":"ALL","driver":"ALL"},"requestOrigins":{"url":"http://webdriver.io","version":"4.14.1","name":"webdriverio"}}}
+[23:07:18]  INFO	SET SESSION ID 5e863e55-8d99-4f18-a7a5-2f0c77c81887
+[23:07:18]  RESULT		{"acceptInsecureCerts":false,"browserName":"firefox","browserVersion":"63.0.3","moz:accessibilityChecks":false,"moz:geckodriverVersion":"0.23.0","moz:headless":false,"moz:processID":12855,"moz:profile":"/tmp/rust_mozprofile.bPwxMSoenQBE","moz:useNonSpecCompliantPointerOrigin":false,"moz:webdriverClick":true,"pageLoadStrategy":"normal","platformName":"linux","platformVersion":"4.15.0-39-generic","rotatable":false,"setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webdriver.remote.sessionid":"5e863e55-8d99-4f18-a7a5-2f0c77c81887"}
+[23:07:18]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/url"
+[23:07:18]  DATA		{"url":"http://the-internet.herokuapp.com/login"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element"
+[23:07:20]  DATA		{"using":"id","value":"username"}
+[23:07:20]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"4bf7c315-d1f0-4d50-99fe-ac73b2c71f94"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element/4bf7c315-d1f0-4d50-99fe-ac73b2c71f94/value"
+[23:07:20]  DATA		{"value":["f","o","o"],"text":"foo"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element"
+[23:07:20]  DATA		{"using":"id","value":"password"}
+[23:07:20]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"8ee4424e-ac5d-479d-aee5-458e2079c04d"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element/8ee4424e-ac5d-479d-aee5-458e2079c04d/value"
+[23:07:20]  DATA		{"value":["b","a","r"],"text":"bar"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element"
+[23:07:20]  DATA		{"using":"css selector","value":"#login button[type=submit]"}
+[23:07:20]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"6706ed60-9938-422f-bf7e-5a89ee9905ad"}
+[23:07:20]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element/6706ed60-9938-422f-bf7e-5a89ee9905ad/click"
+[23:07:20]  DATA		{}
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element"
+[23:07:21]  DATA		{"using":"id","value":"flash"}
+[23:07:21]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"c4ddf937-31fe-4fa8-aafd-6ade72747881"}
+[23:07:21]  COMMAND	GET 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element/c4ddf937-31fe-4fa8-aafd-6ade72747881/text"
+[23:07:21]  DATA		{}
+[23:07:21]  RESULT		"Your username is invalid!\n×"
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/url"
+[23:07:21]  DATA		{"url":"http://the-internet.herokuapp.com/login"}
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element"
+[23:07:21]  DATA		{"using":"id","value":"username"}
+[23:07:21]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"a9d5fc29-41e2-446f-b799-043036386e6f"}
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element/a9d5fc29-41e2-446f-b799-043036386e6f/value"
+[23:07:21]  DATA		{"value":["t","o","m","s","m","i","t","h"],"text":"tomsmith"}
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element"
+[23:07:21]  DATA		{"using":"id","value":"password"}
+[23:07:21]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"e33187f5-4a42-47f2-998d-c8be3f608295"}
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element/e33187f5-4a42-47f2-998d-c8be3f608295/value"
+[23:07:21]  DATA		{"value":["S","u","p","e","r","S","e","c","r","e","(10 more items)"],"text":"SuperSecretPassword!"}
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element"
+[23:07:21]  DATA		{"using":"css selector","value":"#login button[type=submit]"}
+[23:07:21]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"69660c45-d709-4ba5-ba7e-402ec976e151"}
+[23:07:21]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element/69660c45-d709-4ba5-ba7e-402ec976e151/click"
+[23:07:21]  DATA		{}
+[23:07:22]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element"
+[23:07:22]  DATA		{"using":"id","value":"flash"}
+[23:07:22]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"62752c0b-e6f4-4d6b-b335-5c91d2a8782f"}
+[23:07:22]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/elements"
+[23:07:22]  DATA		{"using":"id","value":"flash"}
+[23:07:22]  RESULT		[{"element-6066-11e4-a52e-4f735466cecf":"62752c0b-e6f4-4d6b-b335-5c91d2a8782f"}]
+[23:07:22]  COMMAND	GET 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element/62752c0b-e6f4-4d6b-b335-5c91d2a8782f/displayed"
+[23:07:22]  DATA		{}
+[23:07:22]  RESULT		true
+[23:07:22]  COMMAND	POST 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element"
+[23:07:22]  DATA		{"using":"id","value":"flash"}
+[23:07:22]  RESULT		{"element-6066-11e4-a52e-4f735466cecf":"62752c0b-e6f4-4d6b-b335-5c91d2a8782f"}
+[23:07:22]  COMMAND	GET 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887/element/62752c0b-e6f4-4d6b-b335-5c91d2a8782f/text"
+[23:07:22]  DATA		{}
+[23:07:22]  RESULT		"You logged into a secure area!\n×"
+[23:07:22]  COMMAND	DELETE 	 "/wd/hub/session/5e863e55-8d99-4f18-a7a5-2f0c77c81887"
+[23:07:22]  DATA		{}
